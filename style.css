@@ -4,11 +4,12 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
+	height: 100%;
 }
 
 .container {
 	max-width: 390px;
-	max-height=device-height;
+	
 }
 
 .inner {
