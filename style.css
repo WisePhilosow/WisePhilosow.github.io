@@ -47,6 +47,18 @@ body {
 	text-align: center;
 }
 
+.draggable {
+  width: 140px;
+  height: 140px;
+  background: #F90;
+  border-radius: 10px;
+  cursor: move;
+}
+.draggable.is-pointer-down {
+  background: #09F;
+}
+.draggable.is-dragging { opacity: 0.7; }
+
 /*
 var(--tg-theme-bg-color)
 var(--tg-theme-text-color)

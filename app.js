@@ -5,6 +5,8 @@ tg.expand();
 tg.MainButton.textColor = "#FFFFFF";
 tg.MainButton.color = "#2cab37";
 
+
+let draggie = new Draggabilly('.draggable');
 let item = "";
 
 let btn1 = document.getElementById("btn1");
@@ -13,6 +15,10 @@ let btn3 = document.getElementById("btn3");
 let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
+
+
+
+
 
 btn1.addEventListener("click", function(){
 	if (tg.MainButton.isVisible) {
