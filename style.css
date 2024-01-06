@@ -8,10 +8,8 @@ body {
 }
 
 .container {
-	/*max-width: 390px;*/
-	position: relative;
-	top: 1px;
-	left: 1px;
+	max-width: 390px;
+
 
 }
 
