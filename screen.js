@@ -1,6 +1,6 @@
 let screenW = screenH = windowW = windowH = false;
 
-var element = document.getElementById("myElement");
+var element = document.getElementById("myElement").value;
 
 var calcScreen = function() {
   screenW = screen.width;
