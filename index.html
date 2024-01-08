@@ -8,6 +8,12 @@
 </head>
 <body>
   	<input type="text" id="text">
+	<sсript type="text/javascript">
+			windоw.addEventListener('resize',(e) => {
+	    cоnst width= document.body.clientWidth;
+	    cоnst getInput = document.getElementById("text");
+	    gеtInput.value = width;  
+	});
 
 	<div class="container">
 		<div class="inner">
@@ -46,12 +52,7 @@
 	<script src="draggabilly.pkgd.js"></script>
 	<script src="app.js"></script>
 
-	<sсript type="text/javascript">
-	  windоw.addEventListener('resize',(e) => {
-	    cоnst width= document.body.clientWidth;
-	    cоnst getInput = document.getElementById("text");
-	    gеtInput.value = width;  
-});
+
 
 </body>
 </html>
