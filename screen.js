@@ -19,4 +19,4 @@ window.addEventListener("orientationchange", calcScreen());
 
 console.log(example.textContent); // в консоли отобразится "Это текст"
 
-example.textContent = screenW+" Cl="+document.documentElement.clientWidth+" inner="+window.innerWidth;
+example.textContent = screenW+" Cl="+document.documentElement.clientWidth"+ inner="+window.innerWidth;
