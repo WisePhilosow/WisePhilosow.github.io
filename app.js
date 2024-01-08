@@ -16,7 +16,8 @@ let btn4 = document.getElementById("btn4");
 let btn5 = document.getElementById("btn5");
 let btn6 = document.getElementById("btn6");
 
-
+const screenWidth = window.screen.width;
+const screenHeight = window.screen.height;
 
 
 
