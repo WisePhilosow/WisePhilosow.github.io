@@ -16,7 +16,4 @@ calcScreen();
 window.addEventListener("resize", calcScreen());
 window.addEventListener("orientationchange", calcScreen());
 
-
-console.log(example.textContent); // в консоли отобразится "Это текст"
-
-example.textContent = "inner="+window.innerWidth;
+example.textContent = "inner="+window.innerHeight;
