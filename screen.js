@@ -1,6 +1,6 @@
 let screenW = screenH = windowW = windowH = false;
 
-var element = document.getElementById("text").value;
+let element = document.getElementById("text");
 
 var calcScreen = function() {
   screenW = screen.width;
@@ -8,7 +8,7 @@ var calcScreen = function() {
   windowW = Math.max(document.documentElement.clientWidth, window.innerWidth);
   windowH = Math.max(document.documentElement.clientHeight, window.innerHeight);
 
- element = document.documentElement.clientWidth;
+ element.textContent = document.documentElement.clientWidth;
 };
  
 calcScreen();
