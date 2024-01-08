@@ -8,7 +8,11 @@ var calcScreen = function() {
   windowW = Math.max(document.documentElement.clientWidth, window.innerWidth);
   windowH = Math.max(document.documentElement.clientHeight, window.innerHeight);
 
- element.textContent = document.documentElement.clientWidth;
+ let example = document.getElementById("example");
+
+console.log(example.textContent); // в консоли отобразится "Это текст"
+
+example.textContent = screenW;
 };
  
 calcScreen();
