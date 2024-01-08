@@ -102,7 +102,10 @@ ${tg.initDataUnsafe.user.last_name}`;
 
 usercard.appendChild(p); 
 
-
+ windоw.addEventListener('resize',(e) => {
+    cоnst width= document.body.clientWidth;
+    cоnst getInput = document.getElementById("text");
+    gеtInput.value = width;  
 
 
 
