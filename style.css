@@ -4,16 +4,10 @@ body {
 	font-size: 18px;
 	color: var(--tg-theme-text-color);
 	background: var(--tg-theme-bg-color);
-	height: 100%;
 }
 
 .container {
 	max-width: 390px;
-
-
-}
-
-	
 }
 
 .inner {
@@ -50,24 +44,3 @@ body {
 .usercard {
 	text-align: center;
 }
-
-.draggable {
-  width: 140px;
-  height: 140px;
-  background: #F90;
-  border-radius: 10px;
-  cursor: move;
-}
-.draggable.is-pointer-down {
-  background: #09F;
-}
-.draggable.is-dragging { opacity: 0.7; }
-
-/*
-var(--tg-theme-bg-color)
-var(--tg-theme-text-color)
-var(--tg-theme-hint-color)
-var(--tg-theme-link-color)
-var(--tg-theme-button-color)
-var(--tg-theme-button-text-color)
-*/
